@@ -1,0 +1,134 @@
+.logo {
+  height: 50px;
+}
+.ayraç {
+  font-size: 20px;
+  margin: 0px 20px;
+  color: #fff;
+}
+.nav-bg {
+  background-color: rgba(150, 150, 150, 0.338);
+}
+.üst-kisim {
+  background-image: url(resimler/ust-bg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.üst-kisim-2 {
+  background-image: url(./resimler/ust-bg-2.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header-yuk {
+  height: calc(50vh - 70px);
+}
+.sayfa-baslik h3 {
+  color: #f4b70b;
+  font-weight: bold;
+}
+.sayfa-baslik p {
+  color: #fff;
+  font-weight: bold;
+}
+.nav-item a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  color: #f4b70b;
+}
+.navbar-toggler-icon {
+  @media (max-width: 992px) {
+    display: flex;
+    justify-content: right;
+  }
+}
+@media screen and (max-width: 992px) {
+  .ayraç {
+    display: none;
+  }
+  .nav-item:hover {
+    background-color: black;
+  }
+}
+.bosluk {
+  margin-top: 100px;
+}
+/* ! hizmetler */
+.teklif {
+  height: 60px;
+}
+.tirnak {
+  color: #f4b70b;
+  font-size: 25px;
+  font-weight: bold;
+}
+.imza {
+  font-size: 20px;
+}
+.hizmetlerimiz {
+  background-color: #f4b70b;
+}
+/* ! Çalışanlar */
+
+/* ! slogan */
+.tirnak1 {
+  color: #f4b70b;
+  font-size: 52px;
+  font-weight: bold;
+}
+.söz {
+  font-size: 40px;
+  color: white;
+}
+.slogan {
+  background-image: url(./resimler/ust-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.roket-icon {
+  font-size: 150px;
+  color: white;
+}
+
+/* ! Çalışmalarımız */
+.calisma {
+  padding: 5px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.calisma:hover {
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.calisma img {
+  height: 150px;
+}
+/* ! footer */
+.footer {
+  background-color: #2c3e50;
+  height: 300px;
+  color: #95a5a6;
+}
+.footer p {
+  font-size: 18px;
+}
+.footer-sütun {
+  height: 300px;
+}
+.icons {
+  font-size: 30px;
+}
